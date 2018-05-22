@@ -74,7 +74,7 @@ function newSeed() {
 }
 
 function loadGame() {
-    var loadSeed = prompt("Please enter a Game ID");
+    var loadSeed = prompt("Zadejte prosím ID hry");
     if(loadSeed == undefined) {
         return;
     }
@@ -83,7 +83,7 @@ function loadGame() {
     var match = loadSeed.match(re);
     
     if(match == null) {
-        alert("'" + loadSeed + "' is not a valid Game ID");
+        alert("'" + loadSeed + "' není platné ID");
     } else {
         var intSeed = stringSeedToInt(loadSeed);
         seed = intSeed;
