@@ -1313,7 +1313,7 @@ var masterWordList = [
 "ZNAČKA",
 "ZNEČIŠTĚNÍ",
 "ZNIČENÍ",
-"ZOO"
+"ZOO",
 "ZPOŽDĚNÍ",
 "ZPRÁVY",
 "ZPĚVÁK",
@@ -1435,5 +1435,5 @@ var masterWordList = [
 "ŽÁDOST",
 "ŽÁK",
 "ŽÁROVKA",
-"ŽÍLA",
+"ŽÍLA"
 ];
