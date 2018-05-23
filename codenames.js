@@ -99,7 +99,7 @@ function newGame() {
 function resetAnwersButton() {
     var button = document.getElementById('AnswersButton');
     if(button.value != "hidden") {
-        button.innerHTML = "Show Answers";
+        button.innerHTML = "Zobrazit odpovědi";
         button.value = "hidden";
     }
 }
@@ -113,7 +113,7 @@ function generateGame() {
     
     resetAnwersButton();
     
-    var text = "<b>First Team:</b> <span style='color:" + cssColors[startColor] + "'>" + colorNames[startColor] + "</span><br /><b>Game ID:</b> " + intSeedToString(seed);
+    var text = "<b>Zahajujé tým:</b> <span style='color:" + cssColors[startColor] + "'>" + colorNames[startColor] + "</span><br /><b>ID hry:</b> " + intSeedToString(seed);
     document.getElementById("Text1").innerHTML = text;
     
     createTable();
@@ -223,11 +223,11 @@ function showAnswers() {
     
     if(button.value == "hidden") {
         reveal = true;
-        button.innerHTML = "Hide Answers";
+        button.innerHTML = "Skrýt odpovědi";
         button.value = "revealed";
     } else {
         reveal = false;
-        button.innerHTML = "Show Answers";
+        button.innerHTML = "Zobrazit odpovědi";
         button.value = "hidden";
     }
     
@@ -250,12 +250,12 @@ function toggleInvertedText() {
     
     if(button.value == "enabled") {
         enableInvertedText = false;
-        button.innerHTML = "Inverted Text";
+        button.innerHTML = "Obrácený text";
         button.value = "disabled";
 
     } else {
         enableInvertedText = true;
-        button.innerHTML = "Normal Text";
+        button.innerHTML = "Normální text";
         button.value = "enabled";
     }
     
