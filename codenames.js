@@ -211,7 +211,7 @@ function changeColor(elem, color) {
     if(elem.style.color.toUpperCase() == color.toUpperCase()) {
         elem.style.color = "Black";
     } else {
-        elem.style.color = color;
+        elem.style.color = "darkgray";
     }
 }
 
