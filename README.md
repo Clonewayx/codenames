@@ -2,6 +2,8 @@
 Překlad jedoduchého online provedení hry [Krycí jména](http://krycijmena.cz/)
 
 Online ke hraní česky: https://clonewayx.github.io/codenames/ původní anglický projekt: http://sjlevin.github.io/codenames/
+
+---
 # Codenames
 A simple attempt to reproduce the game board for Codenames
 
